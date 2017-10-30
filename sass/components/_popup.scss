@@ -11,7 +11,7 @@
     transition: all .3s;
 
     &__content {
-        @include absolute-center;
+        @include absCenter;
         background-color: $color-white;
         width: 75%;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
@@ -21,11 +21,19 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
+
+        @include respond(tab-port) {
+            width: 90%;
+        }
     }
 
     &__left {
         width: 33.333333%;
         display: table-cell;
+
+        @include respond(phone) {
+            display: none;
+        }
     }
 
     &__right {
@@ -33,6 +41,10 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(phone) {
+            width: 100%;
+        }
     }
 
     &__img {   
@@ -57,6 +69,10 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(phone) {
+            column-count: 1;
+        }
     }
 
     // OPEN STATE
