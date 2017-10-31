@@ -1,6 +1,6 @@
 # Advanced CSS and SASS
 
-A created this **modern responsive website** as a part of an online course created and designed by **Jonas Schmedtmann**.
+I created this **modern responsive website** as a part of an online course created and designed by **Jonas Schmedtmann**.
 
 I used the **7-1 rule**, component-based design and the **BEM methodology** to write **reusable**, **maintainable** and **scalable** code. 
 The compilation, concatenation and compressing of the files are done using **NPM**.
@@ -31,4 +31,19 @@ The compilation, concatenation and compressing of the files are done using **NPM
   - imports
   - mixins
   - functions
-  - extends, and more
+  - extends
+
+## Screenshots:
+
+  <p align="center">
+      <img src="img/screenshot-1.png" width="500px" padding="10px"/>
+  </p>
+  <p align="center">
+      <img src="img/screenshot-2.png" width="500px" padding="10px"/>
+  </p>
+    <p align="center">
+      <img src="img/screenshot-3.png" width="500px" padding="10px"/>
+  </p>
+    <p align="center">
+      <img src="img/screenshot-4.png" width="500px" padding="10px"/>
+  </p>
